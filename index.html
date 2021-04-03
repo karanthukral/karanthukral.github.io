@@ -64,10 +64,12 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Production Engineer, Application Lifecycle</h3>
                             <div class="subheading mb-3">Shopify Inc</div>
-                            <p class="mb-2">• Championed project to build a centralized deploy scheduler reducing deploy times of the core application from <b>35 minutes to under 17 minutes</b>.</p>
-                            <p class="mb-2">• Implemented automated failovers for Redis instances with <b>under 5 minutes</b> of downtime.</p>
-                            <p class="mb-2">• Built automated failovers for applications with <b>minimal downtime</b> used during incidents and application balancing.</p>
-                            <p class="mb-2">• Led project to upgrade and replace all kubernetes clusters along with migrating <b>400+ services</b> to modernize the platform infrastructure according to resiliency best practices.</p>
+                            <p class="mb-2">• Reduced deploy time of the core application from <b>35 minutes to under 17 minutes</b> by leading a project that built a centralized deploy scheduler.</p>
+                            <p class="mb-2">• Implemented Redis instance migrations across clusters in <b>under 5 minutes</b>.</p>
+                            <p class="mb-2">• Built user friendly tooling for <b>automated application failovers</b> used during incidents and for infrastructure maintenance.</p>
+                            <p class="mb-2">• Leveraged application metrics and ongoing incidents to make <b>infrastructure deploys safer</b> by implementing custom deploy strategies.</p>
+                            <p class="mb-2">• Modernized the application platform infrastructure according to resiliency best practices by championing project to <b>migrate 400+ services</b> to newly created Kuberenetes clusters.</p>
+                            <p class="mb-2">• <b>Mentored</b> new team members and interns to provide support as they ramped up to the tooling and processes used by the team.</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">May 2019 - Present</span></div>
                     </div>
@@ -75,30 +77,24 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Production Engineer, Cloud Platform</h3>
                             <div class="subheading mb-3">Shopify Inc</div>
-                            <p class="mb-2">• Created custom Kubernetes controllers to manage the creation of <b>resource quotas</b> and <b>limit ranges</b> for application namespaces reducing the impact of a noisy neighbour.</p>
-                            <p class="mb-2">• Worked on <a href="https://github.com/Shopify/krane" target="_blank">Krane</a> to improve the deploy pipeline by adding rollout monitoring for daemon sets, stateful sets, resource quotas and more.</p>
-                            <p class="mb-2">• Implemented <b>better error handling</b> for invalid Procfile entries in <a href="https://github.com/gliderlabs/herokuish" target="_blank">Herokuish</a> reducing the support burden on the team by making it easier to debug for application developers.</p>
-                            <p class="mb-2">• Reduced container build times from <b>5 minutes to under a minute</b> for configuration file changes by leveraging previously built containers speeding up certain deploys and making it faster to scale up applications.</p>
-                            <p class="mb-2">• Built a user interface to allow developers to <b>monitor application health and status</b> without requiring knowledge of the inner workings of the platform or Kubernetes.</p>
+                            <p class="mb-2">• <b>Migrated</b> multiple business critical applications to the new internal application platform.</p>
+                            <p class="mb-2">• Reduced the impact of noisy neighbour using a custom Kubernetes controller to manage the creation of <b>resource quotas</b>, and <b>limit ranges</b> for application namespaces.</p>
+                            <p class="mb-2">• Improved deploy tooling by adding rollout monitoring for daemon sets, stateful sets, resource quotas, and more through upstream contributions to <a href="https://github.com/Shopify/krane" target="_blank">Krane</a>.</p>
+                            <p class="mb-2">• Reduced support burden on the team by making it easier to debug deploy failures through <b>improved error handling</b> for invalid Procfile entries in <a href="https://github.com/gliderlabs/herokuish" target="_blank">Herokuish</a>.</p>
+                            <p class="mb-2">• Reduced container build times from <b>5 minutes to under a minute</b> for configuration file changes by leveraging the container cache, speeding up deploys and making it faster to scale up applications.</p>
+                            <p class="mb-2">• Built a user interface for developers to <b>monitor application health and status</b> without requiring knowledge of the inner workings of the platform or Kubernetes.</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">May 2017 - May 2019</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Production Engineering Intern, Cloud Platform</h3>
+                            <h3 class="mb-0">Production Engineering Intern</h3>
                             <div class="subheading mb-3">Shopify Inc</div>
-                            <p class="mb-2">• <b>Containerized & migrated</b> multiple services on to Kubernetes.</p>
+                            <p class="mb-2">• <b>Containerized & migrated</b> multiple production critical services on to Kubernetes.</p>
                             <p class="mb-2">• <b>Automated cluster creation</b> and <b>application bootstrap</b> on Kubernetes through a CLI and a chat bot.</p>
+                            <p class="mb-2">• Built an <b>on-demand staging environment</b> for developers to boot up <b>standalone Shopify instances</b> including <b>database snapshots</b> to seed the staging environment.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2016 - Aug 2016</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Production Engineering Intern, Developer Acceleration</h3>
-                            <div class="subheading mb-3">Shopify Inc</div>
-                            <p class="mb-2">• Build an <b>on-demand staging environment</b> for the core Shopify application. These standalone instances included pre-seeded data and a publically accessible URL to share internally.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Sep 2015 - Apr 2016</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Sep 2015 - Aug 2016</span></div>
                     </div>
                 </div>
             </section>
@@ -107,15 +103,30 @@
             <section class="resume-section" id="talks">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Talks</h2>
-                        <p class="lead mb-1">
-                            Shopify’s Path to k8s | <i>SRECon18 Americas</i> (<a href="https://www.usenix.org/conference/srecon18americas/presentation/thukral" target="_blank">Talk Info</a>)
-                        </p>
-                        <p class="lead mb-1">
-                            How we did it: One customer’s journey to modern infrastructure | <i>Google Modernizing IT in a Cloud-First World 2018</i> (<a href="https://cloudonair.withgoogle.com/events/modernize/schedule?talk=americas-talk3-mi" target="_blank">Talk Info</a>)
-                        </p>
-                        <p class="lead mb-1">
-                            Building Containers @ Shopify | <i>Ottawa DevOps Meetup 2017</i> (<a href="https://www.youtube.com/watch?v=TE2jKEIWZNI" target="_blank">Video</a>)
-                        </p>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Shopify's Path to k8s</h3>
+                            <div class="talk-subheading mb-3">SRECon18 Americas</div>
+                            <p class="mb-2">Presented a talk on building a platform as a service on top of Kubernetes and Google Kubernetes Engine. The goal was to share Shopify's best practices and start a discussion in the community to see how others are tackling similar challenges.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><a href="https://www.usenix.org/conference/srecon18americas/presentation/thukral" target="_blank">Talk Info</a></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">How we did it: One customer’s journey to modern infrastructure</h3>
+                            <div class="talk-subheading mb-3">Google Modernizing IT in a Cloud-First World 2018</div>
+                            <p class="mb-2">Co-presented a session on the experiences of using containers and Kubernetes in production and lessons to keep in mind when undertaking such a migration.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><a href="https://cloudonair.withgoogle.com/events/modernize/schedule?talk=americas-talk3-mi" target="_blank">Talk Info</a></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Building Containers @ Shopify</h3>
+                            <div class="talk-subheading mb-3">Ottawa DevOps Meetup 2017</div>
+                            <p class="mb-2">Gave a talk on container building at Shopify and the tooling we used and built. The goal was to share our experiences and promote best practices across the local community.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><a href="https://www.youtube.com/watch?v=TE2jKEIWZNI" target="_blank">Video</a></span></div>
+                    </div>
                 </div>
             </section>
         </div>
